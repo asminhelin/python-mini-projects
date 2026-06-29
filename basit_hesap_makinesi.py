@@ -12,15 +12,15 @@ Hesap Makinesi Programı
 a=int(input("1. Sayı:"))
 b=int(input("2. Sayı:"))
 
-işlem=input("İşlemi giriniz:")
+işlem=int(input("İşlemi giriniz:"))
 
-if işlem == "1":
+if işlem ==1:
     print("{} ile {} in toplamı {}'dir.".format(a,b,a+b))
-elif işlem == "2":
+elif işlem ==2:
     print("{} ile {} in farkı {}'dir.".format(a,b,a-b))
-elif işlem == "3":
+elif işlem ==3:
     print("{} ile {} in çarpımı {}'dir.".format(a,b,a*b))
-elif işlem == "4":
+elif işlem ==4:
     print("{} ile {} in bölümü {}'dir.".format(a,b,a/b))
 else:
     print("Geçersiz İşlem.")
